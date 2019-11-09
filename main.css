@@ -40,4 +40,34 @@ body {
 html {
    height: 100%;
 }
-
+ h1 {
+   font-family: SF Pro Display;
+   font-size: 48px;
+ }
+ h2 {
+   font-family: SF Pro Display;
+   font-size: 24px;
+ }
+ h3 {
+   font-family: SF Pro Display;
+   font-size: 18px;
+ }
+ body {
+   font-family: SF Pro Display;
+   font-size: 16px;
+ }
+ .container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: repeat(3, 1fr);
+ }
+.description {
+   width: 240px;
+   grid-column: 2;
+   grid-row: 2;
+}
+.animal {
+   width: 240px;
+   grid-column: 3;
+   grid-row: 2;
+}
