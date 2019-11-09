@@ -1,16 +1,13 @@
-function openSettings() {
-   document.getElementById("settings").classList.toggle("settings-open");
+function randomAnimal() {
+  document.getElementById("randomAnimal").src = "assets/test/animals/" + getRandomAnimal();
 }
 
-document.getElementById("settings-button").addEventListener('click', openSettings)
+function getRandomAnimal() {
+  var images = ["turtle.jpg","bird.jpg","polar-bear.jpg"];
 
-function saveName() {
-    localStorage.setItem('receivedName', userName);
+  return images[Math.floor(Math.random() * images.length)];
 }
 
-var userName = localStorage.getItem('receivedName');
-
-if (userName == null) {
-   userName = "friend";
-}
-
+$(document).ready(function(){
+  randomAnimal();
+});
