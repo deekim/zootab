@@ -73,3 +73,12 @@ body {
    height: 200px;
    width: 142px;
 }
+p {
+   display:inline;
+}
+.dan-test {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}

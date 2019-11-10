@@ -1,5 +1,6 @@
   - commonName: Sea Otter
     scientificName: Enhydra lutris
+    id: 1
     information: |
       Sea Otters have the thickest fur of any mammal. Their two layers of fur helps trap air next to their skin so their skin does not get wet. Sea otters once ranged from Mexico to Alaska and even to Japan. Currently, the California population numbers around 3,300 and is found from Half Moon Bay to Point Conception. Sea otters in California are a threatened species due to past over hunting for their beautiful fur.
     imagePath: otter.svg
@@ -8,6 +9,7 @@
 
   - commonName: Proboscis Monkey
     scientificName: Nasalis larvatus
+    id: 2
     information: |
       The proboscis, or long-nosed, monkey is a large tree-dwelling primate native to Southeast Asia. They prefer coastal habitats dominated by mangroves and swamp forests, but can also be found inland in low-lying areas along rivers, in riparian forests and rainforests. The population of the proboscis monkey is on the decline and the species has been listed as endangered since 2000.
     imagePath: monkey.svg
@@ -16,6 +18,7 @@
 
   - commonName: Lion
     scientificName: Panthera leo
+    id: 3
     information: |
       The world's most social felines, lions roam the savannas and grasslands of the African continent, hunting cooperatively and raising cubs in prides. The lion is the second largest cat in the world (behind tigers). Many endangered lions live in grassland and forest areas of Africa and India. As the human population increases, these lion habitats are destroyed in order to create more homes and buildings for people.
     imagePath: lion.svg
@@ -24,6 +27,7 @@
 
   - commonName: Ring-tailed lemur
     scientificName: Lemur catta
+    id: 4
     information: |
       Ring-tailed lemurs are named for the 13 alternating black and white bands that adorn their tails. Unlike most other lemurs, ringtails spend 40 percent of their time on the ground, moving quadrupedally along the forest floor. A group of ring-tailed lemurs is called a mob.  As of early 2017, the population in the wild is believed to have crashed as low as 2,000 individuals due to habitat loss, poaching and hunting for bush meat and the exotic pet trade.
     imagePath: ring-tailed-lemur.svg
