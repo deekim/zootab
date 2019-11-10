@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <title>ZooTab</title>
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="icon" href="favicon.png" type="image/png">
  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
   <script src="jquery.min.js"></script>
   <script src="esprima.js"></script>
@@ -12,36 +13,35 @@
 </head>
 <body>
   <div class="container">
+    <div class="header">
+      <div class="logo_container">
+        <img width="100px" src="./img/logo.png" alt="logo"></img>
+      </div>
+    </div>
     <div class="item animal">
       <img src="./img/otter.svg" id="data-animal-image-path">
-    </div>
+    </div> <!-- end item animal -->
     <div class="item description">
-      <h1 id="data-animal-common-name">
-        Sea Otter
-      </h1>
-      <h2 id="data-animal-scientific-name">
-        enhydra lutris
-      </h2>
-      <div class="body-text">
-        <body>
+      <h1 id="data-animal-common-name">Sea Otter</h1>
+      <h2 id="data-animal-scientific-name">enhydra lutris</h2>
           <div id="data-animal-information">
             This is the information about sea otters.
             They are endagered and need savings.
             This is the third sentence.
-          </div>
-        </body>
-      </div>
-      <div>
-        <a class="donation" href="https://secure3.convio.net/sdzoo/site/Donation2?5000.donation=form1&df_id=5000" >Donate now &#8594;</button>
+          </div><!--end data animal information -->
+          <div class="center">
+              <a class="donation" href="https://secure3.convio.net/sdzoo/site/Donation2?5000.donation=form1&df_id=5000" >Donate now &#8594;</a>
+              </div>
+        </div> <!--end item description -->
+      <div class="donationcontainer">
       </div>
       <div class="item conservation-status">
         <img src="./img/endangered_level_lc.svg" id="data-endangered-image-path"/>
-      </div>
-    </div>
-    <div class="dan-test">
+      </div> <!-- end item conservation-status -->
+    <div class="animalsencountered">
 	<p id="data-user-encounter-count">0</p> of <p id="data-animals-total">0</p> animals encountered
-    </div>
-  </div>
+    </div><!-- dan test -->
+  </div><!-- end container -->
   <script src="main.js"></script>
 
 </body>
