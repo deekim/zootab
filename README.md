@@ -7,7 +7,25 @@
 - setup travis autodeploy
 - research chrome extension publication
 - update manifest
+- add google map
 - publish to google chrome
+- user profile page
+- stickers
+- achievements page
+- implement animal specific encounter rates
 
-## resources
-- [chrome extension tutorial](https://medium.com/javascript-in-plain-english/https-medium-com-javascript-in-plain-english-how-to-build-a-simple-chrome-extension-in-vanilla-javascript-e52b2994aeeb)
+### UX
+- add loading indicator (instead of having static defaults)
+
+### performance
+- fix issues with random animal picking
+- have one image asset for endangered status and toggle
+
+### cross platform compatibility
+- support encounter count in website mode 
+
+### code cleanup
+- add unit test
+- add integration checks
+- add auto deployment/publishing
+- fix performance issues
