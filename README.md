@@ -13,6 +13,7 @@
 - stickers
 - achievements page
 - implement animal specific encounter rates
+- add shareable & unique animals
 
 ### CD
 - setup travis autodeploy
