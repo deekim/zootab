@@ -4,7 +4,7 @@
 `npm run deploy`
 
 ## todo
-- setup travis autodeploy
+### general
 - research chrome extension publication
 - update manifest
 - add google map
@@ -13,6 +13,9 @@
 - stickers
 - achievements page
 - implement animal specific encounter rates
+
+### CD
+- setup travis autodeploy
 
 ### UX
 - add loading indicator (instead of having static defaults)
