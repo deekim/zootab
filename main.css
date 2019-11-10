@@ -1,93 +1,58 @@
-.settings {
-   display: flex;
-   flex-direction: row;
-   align-content: center;
-}
-input {
-   padding: 5px;
-   font-size: 12px;
-   width: 150px;
-   height: 20px;
-}
-button {
-   height: 30px;
-   width: 70px;
-   background: none; /* This removes the default background */
-   color: #313131;
-   border: 1px solid #313131;
-   border-radius: 50px; /* This gives our button rounded edges */
-   font-size: 12px;
-   cursor: pointer;
-}
-form {
-   padding-top: 20px;
-}
-
-.greeting-container {
-   display: flex;
-   justify-content: center;
-   align-content: center;
-}
-.greeting {
-   font-family: sans-serif;
-   font-size: 60px;
-   color: #fff;
-}
 body {
-   background-color: #c670ca;
-   background-image: linear-gradient(45deg, #c670ca 0%, #25a5c8 52%, #20e275 90%);
+   background-color: #D3EBF3;
 }
 html {
    height: 100%;
 }
- h1 {
+h1 {
    margin-block-start: 0;
-   margin-block-end: 8px;
+   margin-block-end: 0;
    font-family: Rockwell;
    font-size: 48px;
    font-weight: bold;
-   line-height: 56px;
- }
- h2 {
+}
+h2 {
    margin-block-start: 0;
-   margin-block-end: 8px;
+   margin-block-end: 32px;
    font-family: Lusitana;
    font-weight: normal;
    font-size: 24px;
-   line-height: 31px;
- }
- h3 {
+}
+h3 {
    margin-block-start: 0;
    margin-block-end: 0;
    font-family: SF Pro Display;
    font-size: 18px;
- }
- body {
+}
+body {
    margin-block-start: 0;
    margin-block-end: 0;
    font-family: Lusitana;
    font-size: 16px;
-   line-height: 21px;
- }
- .body-text {
-    margin-bottom: 16px;
- }
- .container {
+}
+.body-text {
+   margin-bottom: 32px;
+   width: 350px;
+}
+.container {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
+   grid-column-gap: 32px;
    grid-template-rows: repeat(3, 1fr);
- }
-.description {
-   width: 350px;
-   grid-column: 2;
-   grid-row: 2;
+   width: 100vw;
+   height: 100vh;
 }
-.animal {
-   width: 240px;
+.description {
+   width: 475px;
    grid-column: 3;
    grid-row: 2;
 }
-button {
+.animal {
+   width: 290px;
+   grid-column: 2;
+   grid-row: 2;
+}
+.donation {
    width: auto;
    font-family: Rockwell;
    font-style: normal;
@@ -98,10 +63,22 @@ button {
    border: none;
    text-decoration: underline;
 }
-button:hover {
+.donation:hover {
    text-decoration: none;
 }
-.randomAnimal {
-   width: 100%;
-   height: 240px;
+.conservation-status {
+   position: relative;
+   top: -150px;
+   left: 380px;
+   height: 200px;
+   width: 142px;
+}
+p {
+   display:inline;
+}
+.dan-test {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
 }

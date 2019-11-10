@@ -9,7 +9,8 @@
     "newtab": "index.html"
   },
   "permissions": [
-     "activeTab"
+     "activeTab",
+     "storage"
    ]
 }
 

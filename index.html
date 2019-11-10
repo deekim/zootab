@@ -12,7 +12,10 @@
 </head>
 <body>
   <div class="container">
-    <div class="item description" >
+    <div class="item animal">
+      <img src="./img/otter.svg" id="data-animal-image-path">
+    </div>
+    <div class="item description">
       <h1 id="data-animal-common-name">
         Sea Otter
       </h1>
@@ -21,19 +24,22 @@
       </h2>
       <div class="body-text">
         <body>
-			<div id="data-animal-information">
-				This is the information about sea otters.
-				They are endagered and need savings.
-				This is the third sentence.
-			</div>
+          <div id="data-animal-information">
+            This is the information about sea otters.
+            They are endagered and need savings.
+            This is the third sentence.
+          </div>
         </body>
       </div>
       <div>
-        <button type="button">Donate now &#8594;</button>
+        <a class="donation" href="https://secure3.convio.net/sdzoo/site/Donation2?5000.donation=form1&df_id=5000" >Donate now &#8594;</button>
+      </div>
+      <div class="item conservation-status">
+        <img src="./img/endangered_level_lc.svg" id="data-endangered-image-path"/>
       </div>
     </div>
-    <div class="item animal">
-      <img src="./img/otter.svg" id="data-animal-image-path">
+    <div class="dan-test">
+	<p id="data-user-encounter-count">0</p> of <p id="data-animals-total">0</p> animals encountered
     </div>
   </div>
   <script src="main.js"></script>
