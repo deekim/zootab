@@ -52,7 +52,7 @@ body {
    grid-column: 2;
    grid-row: 2;
 }
-button {
+.donation {
    width: auto;
    font-family: Rockwell;
    font-style: normal;
@@ -63,7 +63,7 @@ button {
    border: none;
    text-decoration: underline;
 }
-button:hover {
+.donation:hover {
    text-decoration: none;
 }
 .conservation-status {
