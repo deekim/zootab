@@ -14,6 +14,7 @@
 - achievements page
 - implement animal specific encounter rates
 - add shareable & unique animals
+- add google analytics 
 
 ### CD
 - setup travis autodeploy
