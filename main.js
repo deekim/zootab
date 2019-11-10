@@ -1,13 +1,18 @@
-function randomAnimal() {
-  document.getElementById("randomAnimal").src = "assets/test/animals/" + getRandomAnimal();
+function setRandomAnimal() {
+  jQuery.get('./data/animals.yaml', function(data) {
+    animals = jsyaml.load(data);
+
+    console.log(animals[Math.floor(Math.random() * animals.length)]);
+
+    randomAnimal = animals[Math.floor(Math.random() * animals.length)];
+
+    $("#data-animal-image-path").attr("src", "./img/" + randomAnimal["imagePath"]);
+    $("#data-animal-common-name").html(randomAnimal["commonName"]);
+    $("#data-animal-scientific-name").html(randomAnimal["scientificName"]);
+    $("#data-animal-information").html(randomAnimal["information"]);
+  });
 }
 
-function getRandomAnimal() {
-  var images = ["turtle.jpg","bird.jpg","polar-bear.jpg"];
-
-  return images[Math.floor(Math.random() * images.length)];
-}
-
-$(document).ready(function(){
-  randomAnimal();
+$(document).ready(function() {
+  setRandomAnimal();
 });

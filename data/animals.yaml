@@ -1,50 +1,35 @@
---- !Animal
-commmonName: Sea Otter
-scientificName: Enhydra lutris
-information: |
-  This is the information about sea otters.
-  They are endagered and need savings.
-  This is the third sentence.
-imagePath: otter.svg
-encounterRate: 0.01
+  - commonName: Sea Otter
+    scientificName: Enhydra lutris
+    information: |
+      This is the information about sea otters.
+      They are endagered and need savings.
+      This is the third sentence.
+    imagePath: otter.svg
+    encounterRate: 0.01
 
---- !Animal
-commmonName: Monkey
-scientificName: Cercopithecidae
-information: |
-  This is the information about sea otters.
-  They are endagered and need savings.
-  This is the third sentence.
-imagePath: monkey.svg
-encounterRate: 0.01
+  - commonName: Monkey
+    scientificName: Cercopithecidae
+    information: |
+      This is the information about monkeys.
+      They are endagered and need savings.
+      This is the third sentence.
+    imagePath: monkey.svg
+    encounterRate: 0.01
 
---- !Animal
-commmonName: Lion
-scientificName: Panthera leo
-information: |
-  This is the information about sea otters.
-  They are endagered and need savings.
-  This is the third sentence.
-imagePath: lion.svg
-encounterRate: 0.01
+  - commonName: Lion
+    scientificName: Panthera leo
+    information: |
+      This is the information about lions.
+      They are endagered and need savings.
+      This is the third sentence.
+    imagePath: lion.svg
+    encounterRate: 0.01
 
---- !Animal
-commmonName: Ring-tailed lemur
-scientificName: Lemur catta
-information: |
-  This is the information about sea otters.
-  They are endagered and need savings.
-  This is the third sentence.
-imagePath: ring-tailed-lemur.svg
-encounterRate: 0.01
-
---- !Animal
---- commmonName: Black Rhino
---- scientificName: Diceros bicornis
---- information: |
----   This is the information about sea otters.
----   They are endagered and need savings.
----   This is the third sentence.
---- imagePath:
---- encounterRate: 0.01
-
+  - commonName: Ring-tailed lemur
+    scientificName: Lemur catta
+    information: |
+      This is the information about ring-tailed lemurs.
+      They are endagered and need savings.
+      This is the third sentence.
+    imagePath: ring-tailed-lemur.svg
+    encounterRate: 0.01
