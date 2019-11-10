@@ -5,6 +5,7 @@
       They are endagered and need savings.
       This is the third sentence.
     imagePath: otter.svg
+    endangerdPath: endangered_level_lc.svg
     encounterRate: 0.01
 
   - commonName: Monkey
@@ -14,6 +15,7 @@
       They are endagered and need savings.
       This is the third sentence.
     imagePath: monkey.svg
+    endangerdPath: endangered_level_cr.svg
     encounterRate: 0.01
 
   - commonName: Lion
@@ -23,6 +25,7 @@
       They are endagered and need savings.
       This is the third sentence.
     imagePath: lion.svg
+    endangerdPath: endangered_level_en.svg
     encounterRate: 0.01
 
   - commonName: Ring-tailed lemur
@@ -32,4 +35,5 @@
       They are endagered and need savings.
       This is the third sentence.
     imagePath: ring-tailed-lemur.svg
+    endangerdPath: endangered_level_ew.svg
     encounterRate: 0.01

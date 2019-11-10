@@ -10,6 +10,7 @@ function setRandomAnimal() {
     $("#data-animal-common-name").html(randomAnimal["commonName"]);
     $("#data-animal-scientific-name").html(randomAnimal["scientificName"]);
     $("#data-animal-information").html(randomAnimal["information"]);
+    $("#data-endangered-image-path").attr("src", "./img/" + randomAnimal["endangerdPath"]);
   });
 }
 
