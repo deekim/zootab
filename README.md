@@ -1,6 +1,6 @@
 # zootab
 
-to _increase_ awareness of endangered species through ~~new~~zoo tabs.
+to _increase_ awareness of endangered species through ~~new~~ zoo tabs.
 
 ---
 ::todo:: move to separate docs
