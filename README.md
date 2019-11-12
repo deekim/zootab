@@ -1,5 +1,8 @@
 # zootab
 
+---
+::todo:: move to separate docs
+
 ## deploy
 `npm run deploy`
 
