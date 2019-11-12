@@ -20,6 +20,7 @@ to _increase_ awareness of endangered species through ~~new~~ zoo tabs.
 - implement animal specific encounter rates
 - add shareable & unique animals
 - add google analytics 
+- haiku
 
 ### CD
 - setup travis autodeploy
