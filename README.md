@@ -27,6 +27,7 @@ to _increase_ awareness of endangered species through ~~new~~ zoo tabs.
 
 ### UX
 - add loading indicator (instead of having static defaults)
+- add feature toggling
 
 ### performance
 - fix issues with random animal picking
